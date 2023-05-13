@@ -6,39 +6,49 @@
  * @authorId 120202910586896385
  * @website https://betterdiscord.app/theme/T1
  * @source https://github.com/Eight-P/BD.8P/tree/master/Themes/T1
-*/
+ */
 
 @import url(https://eight-p.github.io/BD.8P/Themes/T1/imports/T1.main.css);
 
+/* Move the server list to the bottom */
+.channels-Ie2l6A {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40%;
+    overflow-y: auto;
+}
+
 :root {
-/*  ==> IMPORTANT <== 
+    /*  ==> IMPORTANT <== 
 
-    - The Theme might not work properly when mixed with others.
+        - The Theme might not work properly when mixed with others.
 
-    - The Theme was made for BetterDiscord and updates to match the stable client.
-      Any other Mod, Platform, or version might work, but is not guaranteed.
+        - The Theme was made for BetterDiscord and updates to match the stable client.
+          Any other Mod, Platform, or version might work, but is not guaranteed.
 
-    - To report any issues, go to: https://github.com/Eight-P/BD.8P/issues
+        - To report any issues, go to: https://github.com/Eight-P/BD.8P/issues
 
 
-     ==> SETTINGS <== 
-  
-    - Backgrounds can be links, colors or gradients (links must be HTTPS).
-    - Choose discord's "Dark" theme (User-Settings/Appearance) for dark images and "Light" for bright ones.
+         ==> SETTINGS <== 
 
-    - Brightness: normal = 100 | lower = darker, higher = brighter
-    - Blur effect: 0 = off | higher number = more blur
-    - Chat buttons: 1 = show | 0 = hidden
-    */
-  
+        - Backgrounds can be links, colors or gradients (links must be HTTPS).
+        - Choose discord's "Dark" theme (User-Settings/Appearance) for dark images and "Light" for bright ones.
+
+        - Brightness: normal = 100 | lower = darker, higher = brighter
+        - Blur effect: 0 = off | higher number = more blur
+        - Chat buttons: 1 = show | 0 = hidden
+        */
+
     --Main_Background: url(https://eight-p.github.io/BD.8P/Themes/T1/imports/Main-bg.jpg);
     --Main_Brightness: 80 ;
     --Main_Background_blur: 0 ;
-    
+
     --Server_Background: url(https://eight-p.github.io/BD.8P/Themes/T1/imports/Server-bg.jpg);
     --Server_Brightness: 100 ;
     --Server_Background_blur: 0 ;
-  
+
     --show-nitro-btn: 0 ;
     --show-gif-btn: 1 ;
     --show-sticker-btn: 0 ;
